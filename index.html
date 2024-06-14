@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Atual</title>
+</head>
+<body>
+
+<script>
 // Obtém a data atual
 var dataAtual = new Date();
 
@@ -7,10 +17,9 @@ var mes = dataAtual.getMonth() + 1; // Mês é baseado em zero, então adicionam
 var ano = dataAtual.getFullYear();
 var dataFormatada = dia + '/' + mes + '/' + ano;
 
-// Define o cabeçalho Content-Type para texto simples
-// Isso garante que o navegador interprete o conteúdo como texto simples
-// e não como HTML
-header("Content-Type: text/plain");
+// Escreve a data atual no corpo da página
+document.write(dataFormatada);
+</script>
 
-// Retorna a data atual formatada
-console.log(dataFormatada);
+</body>
+</html>
