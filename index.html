@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exibir Data Atual</title>
+</head>
+<body>
+
+<h1>Data Atual:</h1>
+<p id="dataAtual"></p>
+
+<script>
+// Função para obter a data atual
+function getDataAtual() {
+    var data = new Date();
+    var dia = data.getDate();
+    var mes = data.getMonth() + 1; // O mês é baseado em zero
+    var ano = data.getFullYear();
+
+    // Formata a data como "dia/mês/ano"
+    var dataFormatada = dia + '/' + mes + '/' + ano;
+
+    return dataFormatada;
+}
+
+// Obtém a referência ao elemento onde a data será exibida
+var elementoDataAtual = document.getElementById('dataAtual');
+
+// Define o conteúdo desse elemento como a data atual
+elementoDataAtual.textContent = getDataAtual();
+</script>
+
+</body>
+</html>
