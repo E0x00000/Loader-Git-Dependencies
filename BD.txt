@@ -1,1 +1,2 @@
+{username:adm:password:adm:hwid:BFEBFBFF000906A4:expires:14/06/2024}
 
