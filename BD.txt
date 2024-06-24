@@ -1,2 +1,1 @@
-{username:admin:password:MgEOGws=:hwid:178BFBFF00A50F00:expires:24/06/2024}
-{username:adm:password:adm:hwid:BFEBFBFF000906A4:expires:13/06/2024}
+{username:admin:password:MgEOGws=:hwid:178BFBFF00A50F00:expires:25/06/2024}
